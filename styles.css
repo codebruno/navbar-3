@@ -1,0 +1,104 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+    border: none;
+
+    font-family: "Poopins", sans-serif;
+}
+
+/* Estilização geral do body */
+body{
+    width: 100%;
+    height: 100vh;
+}
+/* Estilização do container geral */
+header{
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 2%;
+}
+
+/* Estilização da navbar */
+.container-geral{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Estilização da marca da navbar */
+.nav-semantica{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Estilização dos links da navbar */
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* Estilização dos itens da navbar */
+.navbar-links{
+    display: flex;
+    align-items: center;
+}
+/* Estilização dos links da navbar */
+.nav-item{
+    margin-left: 20px;
+}
+/* Efeito hover nos links da navbar */
+.nav-link{
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #007bff;
+}
+/* Estilização do formulário de pesquisa */
+.form-inline{
+    display: flex;
+    align-items: center;
+}
+/* Estilização do input de pesquisa */
+.form-control{
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+/* Estilização do botão de pesquisa */
+.btn-pesquisa{
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+/* Efeito hover no botão de pesquisa */
+.btn-pesquisa:hover{
+    background: #0056b3;
+}
+
+/* Estilização dos ícones de redes sociais */
+.icones-rede-social{
+    display: flex;
+    align-items: center;
+}
+
+.icones-rede-social a{
+    color: #495057;
+    margin-right: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icones-rede-social a:hover{
+   transform: scale(1.2);
+   color: #007bff;
+}
